@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>
+    <title>SIMPELAH</title>
+    <style>
+        body {
+            color: black;
+            font-family: 'Roboto', sans-serif;
+        }
+        .header {
+            width: 1100px;
+            position: relative;
+            margin: auto;
+            background-color: white;
+        }
+        .logo {
+            font-size: 40px;
+            color: #3D8D7A;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+            float: left
+        }
+        .menu {
+            float: right;
+        }
+        nav {
+            width : 100%;
+            margin: auto;
+            display: flex;
+            line-height: 50px;
+            position: sticky;
+            top: 0px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            color: #3D8D7A;
+            font-weight: bold;
+            text-align: center;
+            padding: 0px 16px 0px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .wrapperlogin{
+            width: 1100px;
+            margin: auto;        }
+        section {
+            display: flex;
+        }
+        .login img {
+            width: 50%;
+            height: 50%;
+        }
+        .kolom {
+            margin: 50px;
+            margin-left: 60px;
+        }
+        .login h1{
+            margin-bottom: 10px;
+            font-size: 45px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #225b4e;
+        }
+        .login h2{
+            margin-top: 0px;
+            font-size: 30px;
+            font-family:'Courier New', Courier, monospace;
+            color: #225b4e;
+        }
+        form{
+            width: 300px;
+            margin: 0px;
+        }
+        form label{
+            display: flex;
+            margin-top: 15px;
+            font-size: 12px;
+        }
+        form input{
+            width: 70%;
+            padding: 3px;
+            border: none;
+            border: 1px solid;
+            border-radius: 8px;
+        }
+        input[type="submit"]{
+            margin-top: 10px;
+            width: 72%;
+            height: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            background-color: #225b4e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <div class="logo">
+                SIMPELAH!
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="/index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="">LOGIN</a>
+                    </li>
+                    <li>
+                        <a href="signUp.html">SIGN UP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapperlogin">
+        <section class="login">
+            <img src="/asset/image/Trash.png" alt="TrashIlustration">
+            <div class="kolom">
+                <h1>Welcome Back!!</h1>
+                <h2>Login</h2>
+                <div class="kolom-form">
+                    <form action="">
+                        <label for="">Email</label>
+                        <input type="text" placeholder="">
+                        <label for="">Password</label>
+                        <input type="password" placeholder="">
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>

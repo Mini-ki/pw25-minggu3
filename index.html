@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<head>
+    <title>SIMPELAH</title>
+    <style>
+        @font-face {
+            font-family: 'quicksand-bold';
+            src: url(asset/font/quicksand/Quicksand_Bold.otf);
+        }
+        body {
+            color: black;
+            font-family: sans-serif;
+        }
+        .header {
+            width: 1100px;
+            position: relative;
+            margin: auto;
+            background-color: white;
+        }
+        .logo {
+            font-size: 40px;
+            color: #3D8D7A;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+            float: left
+        }
+        .menu {
+            float: right;
+        }
+        nav {
+            width : 100%;
+            margin: auto;
+            display: flex;
+            line-height: 50px;
+            position: sticky;
+            top: 0px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            color: #3D8D7A;
+            font-weight: bold;
+            text-align: center;
+            padding: 0px 16px 0px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: auto;
+            display: flex;
+        }
+        .home img {
+            width: 50%;
+            height: 50%;
+        }
+        .kolom {
+            margin: 50px;
+        }
+        .kolom .motivation {
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #225b4e;
+            margin-bottom: 10px;
+        }
+        .kolom .deskripsi {
+            font-size: 17px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 5px;
+            font-weight: bold;
+        }
+        .about-us {
+            width: 1100px;
+            margin: auto;
+        }
+        .about-us h1{
+            text-align: left;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 50px;
+            color: #225b4e;
+            margin-bottom: 10px;
+            margin-top: 70px;
+        }
+        .wrapperhome {
+            width: 1100px;
+            margin: auto;
+        }
+        .about-us .deskripsi{
+            margin: auto
+        }
+        .about-us img {
+            float: right;
+            width: 40%;
+            height: 40%;
+            margin: 0px;
+            padding: 0px;
+        }
+        .about-us .deskripsi p{
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 250px;
+            margin-right: 50%;
+            padding: auto;
+            word-wrap: break-word;
+        }
+        .scanning {
+            width: 1100px;
+            margin: auto;
+            margin-top: 100px;
+            display: flex;
+        }
+        .scanning img {
+            width: 40%;
+            height: 40%;
+            float: left;
+            margin: 0px;
+            padding: 0px;
+        }
+        .scanning .deskripsi h1{
+            font-size: 50px;
+            margin: 0px;
+            margin-top: 20px;
+            margin-right: 150px;
+            font-family: 'Courier New', Courier, monospace;
+            float: right;
+            color: #225b4e;
+        }
+        .scanning .deskripsi p{
+            float: right;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 250px;
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: auto;
+            word-wrap: break-word;
+        }
+        .table-information{
+            margin: auto;
+            width: 1100px;
+        }
+        .table-information h1{
+            float: left;
+            margin-top: 0px;
+            margin-right: 220px;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 50px;
+            color: #225b4e;
+            margin-bottom: 30px;
+        }
+        .ranking-table{
+            margin-right: 20px;
+            margin-top: 100px;
+            float: right;
+            border-collapse: collapse;
+            font-size: 15px;
+            font-family: 'quicksand-bold';
+        }
+        .ranking-table thead tr{
+            background-color: #3D8D7A;
+            color: white;
+            text-align: left;
+        }
+        .ranking-table th,
+        .ranking-table td{
+            padding: 12px 30px;
+        }
+        .ranking-table tbody tr{
+            border-bottom: 1px solid #dddddd;
+        }
+        .ranking-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+            color: #225b4e;
+        }
+        .ranking-table tbody tr:last-of-type {
+            border-bottom: 2px solid #3D8D7A;
+        }
+        .table-information p{
+            font-size: 20px;
+            margin-top: 20px;
+            margin-right: 48%;
+            word-wrap: break-word;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <div class="logo">
+                SIMPELAH!
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="">HOME</a>
+                    </li>
+                    <li>
+                        <a href="page/login.html">LOGIN</a>
+                    </li>
+                    <li>
+                        <a href="page/signUp.html">SIGN UP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapperhome">
+        <section class="home">
+            <img src="asset/image/Trash.png" alt="TrashIlustration">
+            <div class="kolom">
+                <p class="motivation">Turn <strong>Trash</strong> Into Treasure—Build a <strong>Cleaner Tomorrow!!</strong></p>
+                <p class="deskripsi">Scan All the Waste in Your Home and Discover Its Impact! Gain Valuable Insights and Take Action for a Cleaner Future!</p>
+            </div>
+        </section>
+    </div>
+    <div class="about-us">
+        <img src="asset/image/Eco conscious-bro.png" alt="TrashBagImage">
+        <div class="deskripsi">
+            <h1>WELCOME TO <br>SIMPELAH!</h1>
+            <p> <strong>SIMPELAH</strong> is an innovative solution to Indonesia’s growing waste problem. This app leverages technology to boost public awareness and engagement in waste sorting, making waste management more efficient and sustainable.</p>
+        </div>
+    </div>
+    <div class="scanning">
+        <img src="asset/image/Scanning.png" alt="ScanImage">
+        <div class="deskripsi">
+            <h1>LET'S SCANNING!!</h1>
+            <p><strong>SIMPELAH</strong> provides a <strong>Waste Scanning</strong> feature that allows users to scan waste and instantly obtain information about it, including its type and proper disposal methods. By using Waste Scanning, users can make more informed decisions about waste management, contributing to a cleaner and more sustainable future.</p>
+        </div>
+    </div>
+    <div class="table-information">
+        <table class="ranking-table">
+            <thead>
+                <h1>Global Waste <br>Ranking!</h1>
+                <tr>
+                    <th>No</th>
+                    <th>Country</th>
+                    <th>Waste in a Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>India</td>
+                    <td>9,27 Million Tons/Year</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nigeria</td>
+                    <td>3,53 Million Tons/Year</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Indonesia</td>
+                    <td>3,35 Million Tons/Year</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Tiongkok</td>
+                    <td>2,8 Million Tons/Year</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Pakistan</td>
+                    <td>2,56 Million Tons/Year</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bangladesh</td>
+                    <td>1,74 Million Tons/Year</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Rusia</td>
+                    <td>1,7 Million Tons/Year</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Brasil</td>
+                    <td>1,44 Million Tons/Year</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Thailand</td>
+                    <td>995.000 Tons/Year</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Kongo</td>
+                    <td>963.000 Tons/Year</td>
+                </tr>
+            </tbody>
+        </table>
+        <p> <strong>Indonesia ranks third</strong> in global waste production, generating <strong>3.35 million tons per year</strong>, highlighting the urgent need for better waste management. With <strong>SIMPELAH</strong>, we can take action by educating people on proper waste disposal, recycling, and environmental awareness. </p>
+    </div>
+</body>
+</html>
